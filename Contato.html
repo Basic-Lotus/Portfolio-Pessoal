@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================== HEADER / NAVEGAÇÃO ================== -->
+<header>
+  <div id="navegacao">
+    <div class="bloco-nav" onclick="window.location.href='Index.html'"><a>Sobre mim</a></div>
+    <div class="bloco-nav" onclick="window.location.href='Formacao.html'"><a>Formação</a></div>
+    <div class="bloco-nav" onclick="window.location.href='Portifolio.html'"><a>Portifolio</a></div>
+    <div class="bloco-nav" onclick="window.location.href='Contato.html'"><a>Contato</a></div>
+  </div>
+</header>
+
+<!-- ================== CONTEÚDO PRINCIPAL ================== -->
+<main id="principal">
+  <h1 class="titulo-central">Entre em contato</h1>
+
+  <div class="contato-container">
+    
+    <!-- Formulário de contato -->
+    <div class="contato-form">
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Sua mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <!-- Informações de contato -->
+    <div class="contato-dados">
+      <h2>Meus contatos</h2>
+      <p><strong>Email:</strong> basiclotus.comercomercial@gmail.com</p>
+      <p><strong>Telefone:</strong> (35) 99748-1328</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/matheus-diogo-baptista-9242672b2" target="_blank">www.linkedin.com</a></p>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
